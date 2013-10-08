@@ -42,8 +42,8 @@ mat2 = Array.new{Array.new()}
 puts "Leyendo Matriz 2"
 read(mat2, fils, cols)
 
-sum = suma(mat1, mat2)
+suma = sum(mat1, mat2)
 puts "Mostrando Resultado Suma"
-show(sum)
+show(suma)
 
 
