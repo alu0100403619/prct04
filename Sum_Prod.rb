@@ -20,8 +20,8 @@ def show(mat)
   end #for i
 end
 
-fils = 2
-cols = 2
+fils = 3
+cols = 3
 mat1 = Array.new{Array.new()}
 puts "Leyendo Matriz 1"
 read(mat1, fils, cols)
