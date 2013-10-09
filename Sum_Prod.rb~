@@ -40,6 +40,7 @@ def producto(mat_a, mat_b)
   mult
 end
 
+<<<<<<< HEAD
 def sum(mat_a, mat_b)
   sum = Array.new()
 
@@ -52,7 +53,9 @@ def sum(mat_a, mat_b)
 
   sum
 end
+=======
 
+>>>>>>> producto
 
 fils = 3
 cols = 3
