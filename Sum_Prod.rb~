@@ -53,6 +53,7 @@ def sum(mat_a, mat_b)
   sum
 end
 
+
 fils = 3
 cols = 3
 mat1 = Array.new{Array.new()}
