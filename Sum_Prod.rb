@@ -39,3 +39,26 @@ def producto(mat_a, mat_b)
   #mostrar(mult)
   mult
 end
+
+
+
+fils = 3
+cols = 3
+mat1 = Array.new{Array.new()}
+puts "Leyendo Matriz 1"
+read(mat1, fils, cols)
+mat2 = Array.new{Array.new()}
+puts "Leyendo Matriz 2"
+read(mat2, fils, cols)
+
+suma = sum(mat1, mat2)
+puts "Mostrando Resultado Suma"
+show(suma)
+
+mult = producto(mat1, mat2)
+puts "Mostrando Matriz 1"
+show(mat1)
+puts "Mostrando Matriz 2"
+show(mat2)
+puts "Mostrando Resultado Multiplicación"
+show(mult)
